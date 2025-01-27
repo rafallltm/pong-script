@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    border: 1px solid white;
+}
+
+#pontuacao {
+    position: absolute;
+    top: 20px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
